@@ -1,0 +1,95 @@
+
+* {
+	box-sizing: border-box;
+	font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+	font-size: 2.5em;
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 2.5em;
+	font-weight: bold;
+
+}
+
+h3{
+	margin-top: 0px;
+	margin-left: auto;
+	border-left: solid black 1px;
+	border-bottom: solid black 1px;
+	border-right: solid black 1px;
+	width: 125px;
+	text-align: center;
+	color: rgb(192, 192, 192);
+	text-shadow: 1px 1px 1px #222;
+	text-transform: uppercase;
+	background-color: #2196F3;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.row {
+  width: 100%
+
+}
+
+.menu-div {
+  padding: 20px;
+}
+
+.menu {
+  background-color: rgb(192, 192, 192); 
+  border: solid black 1px;
+  margin-top: 15px;
+}
+
+.menu-title{
+  display: flex;
+  font-weight: bold;
+  font-size: 125%;
+}
+
+
+
+
+
+.navbar-brand {
+padding-top: 25px;
+height: 75px;
+}
+
+.navbar-brand h1 { /* Company Name */
+  color: rgb(192, 192, 192); 
+  font-size: 2.2em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid rgb(192, 192, 192);
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+}
+.navbar-custom { 
+    background-color: #2196F3;
+} 
+#collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.3em;
+    text-transform: uppercase;
+    color: #222;
+    text-shadow: 1px 1px 1px #2196F3;
+  }
+
+.nav>li>a:hover {
+   font-weight: bold;
+}
+   .navbar-collapse {
+    background-color: #F5B041;
+}
